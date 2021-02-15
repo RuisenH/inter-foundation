@@ -1,0 +1,70 @@
+body{
+
+}
+
+.mouse{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: lightgrey;
+}
+
+.cable {
+    width: 15px;
+    height: 150px;
+    background: #505050;
+    position: absolute;
+    top: -57px;
+    left: 307px;
+    border-radius: 200px 200px 150px 150px;
+}
+
+.mouse_body {
+    width: 250px;
+    height: 450px;
+    background: #4b7c80;
+    position: absolute;
+    top: 90px;
+    left: 190px;
+    border-radius: 200px 200px 150px 150px;
+}
+
+.left_click {
+    width: 115px;
+    height: 220px;
+    background: #20423f;
+    position: absolute;
+    left: 195px;
+    top: 95px;
+    border-radius: 200px 0px 0px 0px;
+}
+
+.right_click {
+    width: 115px;
+    height: 220px;
+    background: #20423f;
+    position: absolute;
+    left: 319px;
+    top: 95px;
+    border-radius: 0px 200px 0px 0px;
+}
+
+.mouse_wheel_counter {
+    width: 40px;
+    height: 90px;
+    background: #4b7c80;
+    position: absolute;
+    left: 295px;
+    top: 197px;
+    border-radius: 20px;
+}
+
+.mouse_wheel {
+    width: 32px;
+    height: 82px;
+    background: #365052;
+    position: absolute;
+    left: 299px;
+    top: 201px;
+    border-radius: 20px;
+}
