@@ -7,30 +7,83 @@ body{
 
 }
 
-.bounding-box{
+.bounding-box {
     position: relative;
-    width: 308px;
-    height: 516px;
+    width: 85px;
+    height: 235px;
     background: lightgrey;
-    margin: 10px;
+    margin: 22px;
+}
+
+.bounding-box:hover {
+
+    background: grey;
+    margin: 30px;
+}
+
+.triangle-0 {
+    width: 0px;
+    height: 0px;
+    border-bottom: 22px solid black;
+    border-left: 22px solid transparent;
+    display: inline-block;
+    margin: -2.5px;
+}
+.triangle-0:hover {
+    border-bottom: 22px solid yellow;
+}
+
+
+.triangle-1 {
+    width: 0px;
+    height: 0px;
+    border-bottom: 22px solid black;
+    border-right: 22px solid transparent;
+    display: inline-block;
+    margin: -2.5px;
+}
+.triangle-1:hover {
+    border-bottom: 22px solid yellow;
+}
+
+.triangle-2 {
+    width: 0px;
+    height: 0px;
+    border-top: 22px solid black;
+    border-left: 22px solid transparent;
+    display: inline-block;
+    margin: -2.5px;
+}
+.triangle-2:hover {
+    border-top: 22px solid yellow;
+}
+
+.triangle-3 {
+    width: 0px;
+    height: 0px;
+    border-top: 22px solid black;
+    border-right: 22px solid transparent;
+    display: inline-block;
+    margin: -2.5px;
+}
+.triangle-3:hover {
+    border-top: 22px solid yellow;
 }
 
 .segment {
-    width: 100px;
-    height: 100px;
+    width: 22px;
+    height: 22px;
     display: inline-block;
-    margin: 0px;
-    background: blue;
+    margin: -2.5px;
+    background: black;
+    margin-top: -
 }
+.segment:hover {
+    background: yellow;
+}
+
 
 .segment.blank {
     background: none;
 }
 
-.round {
-    border-radius: 100px;
-}
-
-.round:hover {
-    border-radius: 0px;
-}  
