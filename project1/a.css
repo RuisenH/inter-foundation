@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+}
+
+.bounding-box{
+    position: relative;
+    width: 308px;
+    height: 516px;
+    background: lightgrey;
+    margin: 10px;
+}
+
+.segment {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 0px;
+    background: blue;
+}
+
+.segment.blank {
+    background: none;
+}
+
+.round {
+    border-radius: 100px;
+}
+
+.round:hover {
+    border-radius: 0px;
+}  
