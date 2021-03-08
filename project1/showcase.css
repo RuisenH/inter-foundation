@@ -1,0 +1,41 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: black;	
+}
+
+/* navigation */
+
+nav {
+	padding: 30px;
+	font-size: 20px;
+    font: white;
+}
+
+/* stage */
+
+#showcase {
+	width: 800px;
+	height: 800px;
+	margin: auto;
+	overflow: visible;
+	position: relative;
+	top: calc(50vh - 400px);
+}
+
+/* images */
+
+svg path{
+	fill:white;
+	transition: all 100ms ease 0s;
+	margin: auto;
+
+}
+
+svg:hover path {
+	transform: scale(0.9);
+	fill: red ;
+}

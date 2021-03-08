@@ -4,22 +4,45 @@
 }
 
 body{
+    background: lightblue;
 
 }
+
+nav {
+    padding: 30px;
+    font-size: 20px;
+    font: black;
+}
+
+
 
 .bounding-box {
     position: relative;
-    width: 85px;
+    width: 103px;
     height: 235px;
-    background: lightgrey;
-    margin: 22px;
+    background: lightblue;
+    margin: 100px auto;
+    transition: all 800ms ease 0s;
+
+
+
 }
 
 .bounding-box:hover {
+    transform: scale(1.1);
 
-    background: grey;
-    margin: 30px;
 }
+
+.bounding-box:hover .segment{
+    transform: translate(-10px) rotate(45deg);
+    margin:-1px;
+}
+
+.bounding-box:hover .triangle-0{
+    transform: translate(-15px) ;
+}
+
+
 
 .triangle-0 {
     width: 0px;
@@ -28,9 +51,11 @@ body{
     border-left: 22px solid transparent;
     display: inline-block;
     margin: -2.5px;
+    transition: all 900ms ease 0ms;
 }
 .triangle-0:hover {
     border-bottom: 22px solid yellow;
+
 }
 
 
@@ -41,6 +66,7 @@ body{
     border-right: 22px solid transparent;
     display: inline-block;
     margin: -2.5px;
+    transition: all 900ms ease 0ms;
 }
 .triangle-1:hover {
     border-bottom: 22px solid yellow;
@@ -53,6 +79,7 @@ body{
     border-left: 22px solid transparent;
     display: inline-block;
     margin: -2.5px;
+    transition: all 900ms ease 0ms;
 }
 .triangle-2:hover {
     border-top: 22px solid yellow;
@@ -65,6 +92,7 @@ body{
     border-right: 22px solid transparent;
     display: inline-block;
     margin: -2.5px;
+    transition: all 900ms ease 0ms;
 }
 .triangle-3:hover {
     border-top: 22px solid yellow;
@@ -76,7 +104,9 @@ body{
     display: inline-block;
     margin: -2.5px;
     background: black;
-    margin-top: -
+    transition: all 1s ease 0s;
+
+
 }
 .segment:hover {
     background: yellow;
