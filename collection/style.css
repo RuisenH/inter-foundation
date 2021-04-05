@@ -1,0 +1,297 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1c1d1f;
+}
+
+#GITS {
+    position: fixed;
+    left: 75%;
+    top:40%;
+    font-family: Andale Mono,AndaleMono,monospace; 
+    color:white;
+    border: 2px solid white;
+    padding: 20px;
+    opacity: 0;
+    transition: all 800ms ease 0ms;
+}
+
+#AKIRA {
+    position: fixed;
+    left: 75%;
+    top:40%;
+    font-family: Andale Mono,AndaleMono,monospace; 
+    color:white;
+    border: 2px solid white;
+    padding: 20px;
+    opacity: 0;
+    transition: all 800ms ease 0ms;
+}
+#TEKKON {
+    position: fixed;
+    left: 75%;
+    top:40%;
+    font-family: Andale Mono,AndaleMono,monospace; 
+    color:white;
+    border: 2px solid white;
+    padding: 20px;
+    opacity: 0;
+    transition: all 800ms ease 0ms;
+}
+
+.item{
+}
+
+.grid {
+    width: 600px;
+    height:1200px;
+    margin: 40px auto;
+
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+
+#gitscity1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    min-width:  0px ;
+    min-height: 0px;
+    background-position: center;
+    background-image: url('image/gitscity1.jpg');
+    background-size: cover;
+    transition: all 1s ease 0ms;
+
+}
+
+#gitscity1:hover {
+    min-width:  600px ;
+    min-height: 300px;
+    }
+
+#gitscity1:hover ~ #GITS{
+    opacity: 1;
+    }
+
+#gitscity2 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    min-width:  0px ;
+    min-height: 0px;
+    background-image: url('image/gitscity2.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease 0ms;
+
+}
+
+#gitscity2:hover {
+    min-width:  300px ;
+    min-height: 400px;
+    }
+
+#gitscity2:hover ~ #GITS{
+    opacity: 1;
+    }
+
+#akiracity1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    min-width: 0px;
+    min-height: 0px;
+    background-image: url('image/akiracity1.jpg');
+    background-position: center;
+    background-size: cover;
+    position: top right;
+    transition: all 1s ease 0ms;
+
+}
+
+#akiracity1:hover {
+    min-width: 300px;
+    min-height: 300px;
+
+    }
+
+#akiracity1:hover ~ #AKIRA{
+    opacity: 1;
+    }
+
+
+#akiracity2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    min-width: 0px;
+    min-height: 0px;
+    background-image: url('image/akiracity2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: top right;
+    transition: all 1s ease 0ms;
+
+}
+
+#akiracity2:hover {
+    min-width: 300px;
+    min-height: 300px;
+
+    }
+
+#akiracity2:hover ~ #AKIRA{
+    opacity: 1;
+    }
+
+#akiracity3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    min-width: 0px;
+    min-height: 0px;
+    background-image: url('image/akiracity3.jpg');
+    background-position: center;
+    background-size: cover;
+    position: top right;
+    transition: all 1s ease 0ms;
+
+}
+
+#akiracity3:hover {
+    min-width: 600px;
+    min-height: 300px;
+
+    }
+
+#akiracity3:hover ~ #AKIRA{
+    opacity: 1;
+    }
+
+#akiracity4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    min-width: 0px;
+    min-height: 0px;
+    background-image: url('image/akiracity4.jpg');
+    background-position: center;
+    background-size: cover;
+    position: top right;
+    transition: all 1s ease 0ms;
+
+}
+
+#akiracity4:hover {
+    min-width: 600px;
+    min-height: 300px;
+
+    }
+
+#akiracity4:hover ~ #AKIRA{
+    opacity: 1;
+    }
+
+#tekkoncity1 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    min-width: 0px;
+    min-height: 0px;
+    background-image: url('image/tekkoncity1.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: top right;
+    transition: all 1s ease 0ms;
+
+}
+
+#tekkoncity1:hover {
+    min-width: 300px;
+    min-height: 300px;
+
+    }
+
+#tekkoncity1:hover ~ #TEKKON{
+    opacity: 1;
+    }
+
+#tekkoncity2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    min-width: 0px;
+    min-height: 0px;
+    background-image: url('image/tekkoncity2.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: top right;
+    transition: all 1s ease 0ms;
+
+}
+
+#tekkoncity2:hover {
+    min-width: 300px;
+    min-height: 300px;
+
+    }
+
+#tekkoncity2:hover ~ #TEKKON{
+    opacity: 1;
+    }
+
+#tekkoncity3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    min-width: 0px;
+    min-height: 0px;
+    background-image: url('image/tekkoncity3.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: top right;
+    transition: all 1s ease 0ms;
+
+}
+
+#tekkoncity3:hover {
+    min-width: 400px;
+    min-height: 300px;
+
+    }
+
+#tekkoncity3:hover ~ #TEKKON{
+    opacity: 1;
+    }
+
+#tekkoncity4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    min-width: 0px;
+    min-height: 0px;
+    background-image: url('image/tekkoncity4.png');
+    background-position: center;
+    background-size: cover;
+    position: top right;
+    transition: all 1s ease 0ms;
+
+}
+
+#tekkoncity4:hover {
+    min-width: 400px;
+    min-height: 300px;
+
+    }
+
+#tekkoncity4:hover ~ #TEKKON{
+    opacity: 1;
+    }
+
