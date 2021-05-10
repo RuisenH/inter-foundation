@@ -1,0 +1,102 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width:1100px;
+	height:1200px;
+	background: black;	
+}
+
+
+
+#SC { 
+	position: relative;
+    width: 200px;
+    height: fit-content;
+    left: 150px;
+    top: 45px;
+    font-family: Andale Mono,AndaleMono,monospace;
+    font-size: 12px;
+    color: white;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+#practice { 
+    position: relative;
+    width: 200px;
+    height: fit-content;
+    left: 450px;
+    top: -190px;
+    font-family: Andale Mono,AndaleMono,monospace;
+    font-size: 12px;
+    color: white;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+#interview { 
+    position: relative;
+    width: 200px;
+    height: fit-content;
+    left: 750px;
+    top: -500px;
+    font-family: Andale Mono,AndaleMono,monospace;
+    font-size: 12px;
+    color: white;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+
+#Neo { 
+    position: relative;
+    width: 200px;
+    height: fit-content;
+    left: 1050px;
+    top: -710px;
+    font-family: Andale Mono,AndaleMono,monospace;
+    font-size: 12px;
+    color: white;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.cityimage {
+    position: relative;
+    left: 150px;
+    top: 37px;
+    width: 240px;
+    height: 240px;
+    display: block;
+}
+
+.windowimage {
+    position: relative;
+    left: 450px;
+    top: -200px;
+    width: 240px;
+    height: 240px;
+    display: block;
+}
+
+.orientalimage {
+	position: relative;
+	left:1050px;
+	top:-720px;
+	width: 240px;
+	height: 240px;
+	display: block;
+}
+
+.coffeeimage {
+    position: relative;
+    left: 750px;
+    top: -510px;
+    width: 240px;
+    height: 240px;
+    display: block;
+}
+

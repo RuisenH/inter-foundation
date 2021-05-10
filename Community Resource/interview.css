@@ -1,0 +1,45 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+
+	background: black;	
+}
+
+
+
+#SC { 
+	position: relative;
+    width: auto;
+    height: fit-content;
+    font-family: Andale Mono,AndaleMono,monospace;
+    font-size: 15px;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 150px;
+}
+
+#bt { 
+    position: relative;
+    width: auto;
+    height: fit-content;
+    font-family: Andale Mono,AndaleMono,monospace;
+    font-size: 15px;
+    font-variant-position: 
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.nightimage {
+    position: relative;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
